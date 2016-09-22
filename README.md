@@ -1,5 +1,7 @@
 # example project that fails on IntelliJ
 
+Ticket: https://youtrack.jetbrains.com/issue/IDEA-161609
+
 
 ## Preparation: Import problematic warcbase dependency.
 This project uses a dependency from the local maven repo. Extract from build.sbt:
@@ -54,9 +56,9 @@ Program parameters: 1000
 
 Menu -> Run -> Run SparkPi
 
-It fails on runtime with many dependencies, for instance hadoop. Adding the dependency manually, then it fails with another.
+It fails on runtime with many dependencies, for instance hadoop. Adding the dependency manually, then it fails with another one.
 
-Why this work on the terminal, and not from IntelliJ?
+Why this works on the terminal, and not from IntelliJ?
 
 I find a lot of similar problems on IntelliJ, and I am very fed up.
 
